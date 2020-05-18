@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import ParentComponent from './components/ParentComponent'
+import UserGreeting from './components/UserGreeting'
 class App extends Component {
   render(){
   return (
     <div className="App">
-      <ParentComponent></ParentComponent>
+      <UserGreeting></UserGreeting>
     </div>
   );
 }
