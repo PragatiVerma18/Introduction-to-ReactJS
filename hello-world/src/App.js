@@ -1,14 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import LifecycleA from './components/LifecycleA';
+import FragmentDemo from './components/FragementDemo';
+import Table from './components/Table';
 
 class App extends Component {
 	render() {
 		return (
 			<div className='App'>
-				<LifecycleA />
+				<Table />
+				{/* <FragmentDemo /> */}
 			</div>
 		);
 	}
