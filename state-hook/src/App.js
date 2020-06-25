@@ -1,21 +1,14 @@
 import React from "react";
 import "./App.css";
 
-import DataFetching from "./Components/DataFetching";
-import DataFetchingTwo from "./Components/DataFetchingTwo";
-import Counter from "./Components/Counter";
-import FocusInput from "./Components/FocusInput";
-import ClassTimer from "./Components/ClassTimer";
-import HookTimer from "./Components/HookTimer";
+import DocTitleOne from "./Components/DocTitleOne";
+import DocTitleTwo from "./Components/DocTitleTwo";
 
 function App() {
   return (
     <div className="App">
-      {/* <DataFetchingTwo /> */}
-      {/* <Counter /> */}
-      {/* <FocusInput /> */}
-      <ClassTimer />
-      <HookTimer />
+      {/* <DocTitleOne /> */}
+      <DocTitleTwo />
     </div>
   );
 }
